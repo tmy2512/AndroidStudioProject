@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#a891bb</color>
+    <color name="yellow">#e6ddbe</color>
+    <color name="rcm">#f7e2d0</color>
+    <color name="trangcon">#f2f2f2</color>
+    <color name="red">#ff0000</color>
+    <color name="grey">#f8fafc</color>
+</resources>
