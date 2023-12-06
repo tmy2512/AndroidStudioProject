@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TestSQLite</string>
+    <string name="btn_show">Show</string>
+    <string name="title">Sửa nội dung</string>
+    <string name="cancle">Huỷ</string>
+    <string name="update">Cập nhật</string>
+    <string name="edittext">Sửa ở đây</string>
+    <string name="enter_here">Enter here</string>
+    <string name="USA">USA</string>
+    <string name="USD">USD</string>
+    <string name="insert">Thêm dữ liệu</string>
+    <string name="add">add</string>
+</resources>
