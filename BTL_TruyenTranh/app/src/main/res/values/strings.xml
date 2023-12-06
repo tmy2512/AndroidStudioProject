@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BTL_TruyenTranh</string>
+    <string name="recommend">Đề xuất</string>
+    <string name="trend">Trend</string>
+    <string name="outstanding">Tiểu thuyết nổi bật</string>
+    <string name="hot_story">Truyện hot</string>
+    <string name="tacphamkinhdien">Tác phẩm kinh điển</string>
+    <string name="maybeulike">Có thể bạn sẽ thích</string>
+    <string name="title_book">Tên truyện</string>
+    <string name="author_book">Tác giả: </string>
+    <string name="timkiemoday">Tìm kiếm ở đây</string>
+    <string name="timkiem">Tìm kiếm</string>
+    <string name="subject">Thể loại: </string>
+    <string name="doc">Đọc truyêện</string>
+    <string name="desc">jdshfhohweughgjvb iwehiohwegwjeghewfwiehwf iewuehug ihdshfs iwieiewhgo jgdfgdssdhdjsjssd dkhdsjhsjkgs dkhjsdhdsfd</string>
+</resources>
