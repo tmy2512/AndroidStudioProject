@@ -24,9 +24,9 @@ import Gridview_TruyenHot.HotAdapter_Helper;
 public class Recommend_Adapter extends RecyclerView.Adapter<Recommend_Adapter.ViewHolder>{
     // khai báo các biến vào view dùng cho setAdapter
     private Context context;
-    private ArrayList<HotAdapter_Helper> listBook;
+    private ArrayList<Sach> listBook;
 
-    public Recommend_Adapter(Context context, ArrayList<HotAdapter_Helper> listBook) {
+    public Recommend_Adapter(Context context, ArrayList<Sach> listBook) {
         this.context = context;
         this.listBook = listBook;
     }
@@ -42,7 +42,7 @@ public class Recommend_Adapter extends RecyclerView.Adapter<Recommend_Adapter.Vi
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        HotAdapter_Helper temp = listBook.get(position);
+        Sach temp = listBook.get(position);
         // gán dữ liệu vào txt
         String imageName = temp.getImg();
         int resID = ((Activity) context).getResources().
@@ -55,12 +55,7 @@ public class Recommend_Adapter extends RecyclerView.Adapter<Recommend_Adapter.Vi
             public void onClick(View v) {
                 Context context =v.getContext();
                 Intent i = new Intent(context, Trangconchinh.class);
-                i.putExtra("img", temp.getImg());
-                i.putExtra("name_book", temp.getTitle_book());
-                i.putExtra("author", temp.getAuthor());
-                i.putExtra("desc", temp.getDesc());
-                i.putExtra("subject", temp.getSubject());
-                i.putExtra("name_pdf", temp.getName_pdf());
+                i.putExtra("id_RFU", temp.getId());
                 context.startActivity(i);
             }
         });

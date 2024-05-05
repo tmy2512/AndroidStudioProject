@@ -6,4 +6,12 @@
     </style>
 
     <style name="Theme.BTL_TruyenTranh2" parent="Base.Theme.BTL_TruyenTranh2" />
+    
+    <style name="SCREEN">
+        <item name="android:background">#FFF</item>
+    </style>
+
+    <style name="TEXT">
+        <item name="android:textColor">#000</item>
+    </style>
 </resources>

@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
     <!-- tạo phần header bao gồm: TopNavigation and slider cho app-->
     <LinearLayout
         android:id="@+id/header"
@@ -164,7 +165,13 @@
                 android:layout_height="wrap_content">
 
             </androidx.recyclerview.widget.RecyclerView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trang Sinh Vien"
+                android:id="@+id/btnSinhVien"/>
 
         </LinearLayout>
+
     </ScrollView>
 </LinearLayout>
